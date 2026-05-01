@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 🎤 Живая речь -->
+    <TextView
+        android:id="@+id/textSpeech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Слушаю..."
+        android:textSize="18sp"/>
+
+    <!-- ⚙️ Результат команды -->
+    <TextView
+        android:id="@+id/textCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Команды"
+        android:textSize="22sp"
+        android:paddingTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnStartStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START" />
+
+    <TextView
+        android:id="@+id/textCharacterState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🧍‍♂️ Стоит"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="false"/>
+
+
+</LinearLayout>
