@@ -52,17 +52,13 @@ kotlin {
 
 dependencies {
     implementation("com.alphacephei:vosk-android:0.3.47")
-
     implementation(libs.androidx.core.ktx)
     implementation("androidx.appcompat:appcompat:1.6.1")
-
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
-
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
-
     debugImplementation(libs.androidx.compose.ui.tooling)
 }
